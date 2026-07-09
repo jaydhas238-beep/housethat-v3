@@ -2,6 +2,7 @@ console.log("Main JS Loaded");
 
 
 
+
 /* ==========================================
    HERO REVEAL ANIMATION
 ========================================== */
@@ -80,9 +81,3 @@ const swiper = new Swiper(".testimonialSwiper", {
     }
 
 });
-
-
-html,
-body{
-    overflow-x: hidden;
-}
