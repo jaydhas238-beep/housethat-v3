@@ -187,41 +187,35 @@ p{
 
 }
 
-.logo .house{
-
-    font-family:var(--heading-font);
-
-    font-size:3.2rem;
-
-    font-weight:600;
-
-    line-height:.85;
-
-    color:var(--black);
-
+.logo{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    text-decoration:none;
 }
 
-.logo .that{
-
-    color:var(--gold);
-
-    font-size:1.35rem;
-
+.logo-text{
+    font-family:var(--heading-font);
+    font-size:2.8rem;
     font-weight:600;
+    line-height:1;
+}
 
+.logo-text .house{
+    color:var(--black);
+}
+
+.logo-text .that{
+    color:var(--gold);
 }
 
 .logo small{
-
-    margin-top:14px;
-
     font-size:.72rem;
-
     letter-spacing:4px;
-
+    text-transform:uppercase;
     color:#777;
-
 }
+
 
 .nav-links{
     display:flex;
