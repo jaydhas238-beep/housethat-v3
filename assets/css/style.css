@@ -598,3 +598,75 @@ p{
     color:#777;
 
 }
+
+/* ==========================================
+   CTA SECTION
+========================================== */
+
+.cta{
+
+    padding:180px 0;
+
+    background:#111;
+
+    color:#fff;
+
+}
+
+.cta .container{
+
+    max-width:900px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.cta .section-tag{
+
+    color:var(--gold);
+
+}
+
+.cta h2{
+
+    font-size:clamp(3rem,5vw,5rem);
+
+    line-height:1.1;
+
+    margin:25px 0 30px;
+
+}
+
+.cta p{
+
+    max-width:700px;
+
+    margin:0 auto 50px;
+
+    line-height:2;
+
+    color:rgba(255,255,255,.75);
+
+}
+
+.cta .btn{
+
+    background:var(--gold);
+
+    color:#111;
+
+    padding:18px 42px;
+
+    border-radius:999px;
+
+    transition:.3s ease;
+
+}
+
+.cta .btn:hover{
+
+    transform:translateY(-4px);
+
+}
