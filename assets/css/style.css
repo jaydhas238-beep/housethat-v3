@@ -459,3 +459,43 @@ p{
     margin-bottom:40px;
 
 }
+
+/* ==========================
+   MOBILE RESPONSIVE
+========================== */
+
+@media (max-width: 768px) {
+
+    .hero .container,
+    .founder .container {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .hero {
+        padding-top: 150px;
+        padding-bottom: 80px;
+    }
+
+    .hero h1 {
+        font-size: 3.5rem;
+        line-height: 1;
+    }
+
+    .hero-image img,
+    .founder-image img {
+        height: 500px;
+    }
+
+    .hero-image {
+        margin-right: 0;
+    }
+
+    .founder-content {
+        text-align: center;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+}
