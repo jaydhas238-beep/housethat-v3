@@ -1,1 +1,96 @@
+/* ===============================
+   HOUSETHAT BASE STYLES
+================================ */
 
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    background:var(--white);
+    color:var(--text);
+
+    font-family:var(--body-font);
+
+    overflow-x:hidden;
+
+    line-height:1.6;
+
+    -webkit-font-smoothing:antialiased;
+
+}
+
+img{
+
+    width:100%;
+
+    display:block;
+
+}
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+ul{
+
+    list-style:none;
+
+}
+
+button{
+
+    border:none;
+
+    outline:none;
+
+    cursor:pointer;
+
+    background:none;
+
+    font-family:inherit;
+
+}
+
+.container{
+
+    width:min(90%, var(--container));
+
+    margin:auto;
+
+}
+
+section{
+
+    padding:120px 0;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+
+    font-family:var(--heading-font);
+
+    font-weight:500;
+
+    line-height:1.1;
+
+}
+
+p{
+
+    color:var(--grey);
+
+}
