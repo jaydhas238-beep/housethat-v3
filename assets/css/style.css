@@ -175,27 +175,52 @@ p{
 
 }
 
+/* ==========================================
+   LOGO
+========================================== */
+
 .logo{
+
+    display:flex;
+    flex-direction:column;
+
+    gap:4px;
+
+    text-decoration:none;
+
+}
+
+.logo .house{
 
     font-family:var(--heading-font);
 
     font-size:2.3rem;
 
-    font-weight:600;
-
-    letter-spacing:.5px;
-
     color:var(--black);
 
-    transition:var(--transition);
+    font-weight:600;
+
+    line-height:1;
 
 }
 
-.logo span{
+.logo .that{
 
     color:var(--gold);
 
-    font-weight:700;
+}
+
+.logo small{
+
+    font-family:var(--body-font);
+
+    font-size:.72rem;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    color:#666;
 
 }
 
