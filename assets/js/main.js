@@ -73,3 +73,56 @@ menuToggle.addEventListener("click", () => {
 closeMenu.addEventListener("click", () => {
     mobileMenu.classList.remove("active");
 });
+
+
+/* ==========================================
+   TESTIMONIAL SWIPER
+========================================== */
+
+const testimonialSwiper = new Swiper(".testimonialSwiper", {
+
+    loop: true,
+
+    speed: 1000,
+
+    spaceBetween: 30,
+
+    autoplay: {
+
+        delay: 5000,
+
+        disableOnInteraction: false,
+
+    },
+
+    pagination: {
+
+        el: ".swiper-pagination",
+
+        clickable: true,
+
+    },
+
+    breakpoints: {
+
+        0: {
+
+            slidesPerView: 1,
+
+        },
+
+        768: {
+
+            slidesPerView: 2,
+
+        },
+
+        1200: {
+
+            slidesPerView: 3,
+
+        }
+
+    }
+
+});
