@@ -1,1 +1,37 @@
+/* ===============================
+   HOUSETHAT DESIGN SYSTEM
+================================ */
 
+:root{
+
+    /* Colors */
+
+    --black:#0A0A0A;
+    --white:#F8F7F5;
+    --gold:#B68D40;
+    --text:#1A1A1A;
+    --grey:#6E6E6E;
+    --light-grey:#ECE8E2;
+
+    /* Fonts */
+
+    --heading-font:'Cormorant Garamond', serif;
+    --body-font:'Inter', sans-serif;
+
+    /* Container */
+
+    --container:1280px;
+
+    /* Border Radius */
+
+    --radius:16px;
+
+    /* Shadows */
+
+    --shadow:0 20px 60px rgba(0,0,0,.08);
+
+    /* Transition */
+
+    --transition:.4s ease;
+
+}
