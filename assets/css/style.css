@@ -168,7 +168,7 @@ p{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    height:120px;
+    height:100px;
 }
 
 
@@ -196,7 +196,7 @@ p{
 
 .logo-text{
     font-family:var(--heading-font);
-    font-size:2.8rem;
+    font-size:2.4rem;
     font-weight:600;
     line-height:1;
 }
@@ -220,7 +220,7 @@ p{
 .nav-links{
     display:flex;
     align-items:center;
-    gap:40px;
+    gap:32px;
 }
 
 .nav-links a{
