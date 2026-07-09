@@ -460,3 +460,51 @@ p{
 
 }
 
+
+/* ==========================================
+   BRAND PHILOSOPHY
+========================================== */
+
+.philosophy{
+
+    padding:180px 0;
+
+    background:#f8f7f5;
+
+}
+
+.philosophy .container{
+
+    max-width:900px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.philosophy h2{
+
+    font-size:clamp(3rem,5vw,5rem);
+
+    line-height:1.1;
+
+    margin:25px 0 35px;
+
+    letter-spacing:-1px;
+
+}
+
+.philosophy p{
+
+    max-width:720px;
+
+    margin:auto;
+
+    font-size:1.15rem;
+
+    line-height:2;
+
+    color:#666;
+
+}
