@@ -194,13 +194,13 @@ p{
 
     font-family:var(--heading-font);
 
-    font-size:2.3rem;
-
-    color:var(--black);
+    font-size:3.2rem;
 
     font-weight:600;
 
-    line-height:1;
+    line-height:.85;
+
+    color:var(--black);
 
 }
 
@@ -208,19 +208,21 @@ p{
 
     color:var(--gold);
 
+    font-size:1.35rem;
+
+    font-weight:600;
+
 }
 
 .logo small{
 
-    font-family:var(--body-font);
+    margin-top:14px;
 
     font-size:.72rem;
 
-    letter-spacing:2px;
+    letter-spacing:4px;
 
-    text-transform:uppercase;
-
-    color:#666;
+    color:#777;
 
 }
 
