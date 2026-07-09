@@ -79,50 +79,37 @@ closeMenu.addEventListener("click", () => {
    TESTIMONIAL SWIPER
 ========================================== */
 
-const testimonialSwiper = new Swiper(".testimonialSwiper", {
 
-    loop: true,
+const swiper = new Swiper(".testimonialSwiper", {
 
-    speed: 1000,
+    loop:true,
 
-    spaceBetween: 30,
+    spaceBetween:30,
 
-    autoplay: {
-
-        delay: 5000,
-
-        disableOnInteraction: false,
-
+    autoplay:{
+        delay:3500,
+        disableOnInteraction:false,
     },
 
-    pagination: {
-
-        el: ".swiper-pagination",
-
-        clickable: true,
-
+    pagination:{
+        el:".swiper-pagination",
+        clickable:true,
     },
 
-    breakpoints: {
-
-        0: {
-
-            slidesPerView: 1,
-
+    breakpoints:{
+        0:{
+            slidesPerView:1,
         },
 
-        768: {
-
-            slidesPerView: 2,
-
+        768:{
+            slidesPerView:2,
         },
 
-        1200: {
-
-            slidesPerView: 3,
-
+        1200:{
+            slidesPerView:3,
         }
-
     }
 
 });
+
+
