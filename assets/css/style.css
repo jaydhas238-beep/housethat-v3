@@ -154,26 +154,23 @@ p{
 ========================================== */
 
 .header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    background: transparent;
-    transition: all .4s ease;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1000;
+    background:rgba(248,247,245,.96);
+    backdrop-filter:blur(12px);
+    transition:.4s ease;
 }
 
 .navbar{
-
     display:flex;
-
     justify-content:space-between;
-
     align-items:center;
-
-    height:90px;
-
+    height:120px;
 }
+
 
 /* ==========================================
    LOGO
@@ -283,11 +280,9 @@ p{
 
 .hero{
 
-    padding-top:220px;
+    padding-top:260px;
 
     padding-bottom:160px;
-
-    position:relative;
 
 }
 .hero .container{
@@ -359,12 +354,13 @@ p{
 
     overflow:hidden;
 
-    border-radius:24px;
+    border-radius:28px;
 
     box-shadow:var(--shadow);
 
-}
+    margin-right:40px;
 
+}
 .hero-image img{
 
     width:100%;
