@@ -784,3 +784,7 @@ p{
     font-size:.9rem;
 
 }
+
+*{
+    outline: 1px solid red;
+}
