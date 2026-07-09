@@ -24,6 +24,11 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/animations.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
+
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 </head>
 
 <body>
@@ -171,9 +176,13 @@
             What our clients say about HouseThat
         </h2>
 
-        <div class="testimonial-slider">
+        <div class="swiper testimonialSwiper">
 
-            <!-- Testimonial 1 -->
+    <div class="swiper-wrapper">
+
+            <!-- Slide 1 -->
+        <div class="swiper-slide">
+
             <div class="testimonial-card">
 
                 <div class="stars">
@@ -188,14 +197,20 @@
 
                     <h4>Ashika Dey</h4>
 
-                    <p class="testimonial-text">
+                    <!-- Slide 2 -->
+        <div class="swiper-slide">
+
+            <div class="testimonial-card">
                  Amazing experience working with Anita! She bought my vision to life and exceeded my expectations. Her attention to detail and expertise are unparalleled. Highly recommend!
                      </p>
                 <div class="client-info">
 
                     <h4>Hiral Thakkar</h4>
 
-                   <p class="testimonial-text">
+                    <!-- Slide 3 -->
+        <div class="swiper-slide">
+
+            <div class="testimonial-card">
                  I recently got my new home done by the team and I must say they did a great job.
                  I am happy with their services
                      </p>
@@ -205,7 +220,10 @@
 
 
                   
-                   <p class="testimonial-text">
+                   <!-- Slide 4 -->
+        <div class="swiper-slide">
+
+            <div class="testimonial-card">
                Nice design given in timely manner.
               Fall ceiling design was very good
                      </p>
@@ -214,14 +232,20 @@
                     <h4>Mala Kothari</h4>
 
 
-                   <p class="testimonial-text">
+                    <!-- Slide 5 -->
+        <div class="swiper-slide">
+
+            <div class="testimonial-card">
                You are the consummate professional and I'm in awe of your design abilities and seamless coordination skills...!!
                      </p>
                 <div class="client-info">
 
                     <h4>Shweta Rode</h4>
 
-                    <p class="testimonial-text">
+                     <!-- Slide 6 -->
+        <div class="swiper-slide">
+
+            <div class="testimonial-card">
              Anita that’s a rare quality to get things done post work is done ! Great going ! Stay blessed
                      </p>
                 <div class="client-info">
@@ -234,6 +258,7 @@
             </div>
 
         </div>
+                    <div class="swiper-pagination"></div>
 
     </div>
 
@@ -311,7 +336,10 @@
 
 </section>
 
+                
 </main>
+                  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
   <script src="https://unpkg.com/lenis@1.1.16/dist/lenis.min.js"></script>
   <script src="assets/js/main.js"></script>
