@@ -371,3 +371,14 @@ p{
     transform:scale(1.05);
 
 }
+
+
+.header.scrolled{
+
+    background:rgba(248,247,245,.92);
+
+    backdrop-filter:blur(18px);
+
+    box-shadow:0 10px 40px rgba(0,0,0,.05);
+
+}
