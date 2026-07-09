@@ -82,3 +82,7 @@ const swiper = new Swiper(".testimonialSwiper", {
 });
 
 
+html,
+body{
+    overflow-x: hidden;
+}
