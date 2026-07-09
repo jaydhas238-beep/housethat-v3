@@ -94,3 +94,57 @@ p{
     color:var(--grey);
 
 }
+
+/* ===============================
+   BUTTONS
+================================ */
+
+.btn{
+
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:16px 34px;
+
+    background:var(--black);
+
+    color:var(--white);
+
+    border-radius:999px;
+
+    font-size:.95rem;
+
+    font-weight:500;
+
+    transition:var(--transition);
+
+}
+
+.btn:hover{
+
+    background:var(--gold);
+
+    transform:translateY(-3px);
+
+    box-shadow:var(--shadow);
+
+}
+
+.btn-outline{
+
+    background:transparent;
+
+    border:1px solid var(--black);
+
+    color:var(--black);
+
+}
+
+.btn-outline:hover{
+
+    background:var(--black);
+
+    color:var(--white);
+
+}
