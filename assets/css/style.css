@@ -1121,5 +1121,13 @@ CTA
     transform:translateY(-5px);
 }
 
-
+.tag,
+.section-tag{
+    display:inline-block;
+    letter-spacing:5px;
+    text-transform:uppercase;
+    color:#C8A05B;
+    font-size:13px;
+    margin-bottom:25px;
+}
 
